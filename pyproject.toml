@@ -1,0 +1,4 @@
+[build-system]
+# Metadata lives in setup.cfg so old pip/setuptools (e.g. macOS's pip 21) install it too.
+requires = ["setuptools>=40.8", "wheel"]
+build-backend = "setuptools.build_meta"
